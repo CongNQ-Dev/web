@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.room-background {
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  background-image: url("../../assets/images/dressRoom.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.room-background .girl {
+  position: absolute;
+  height: 80%;
+  bottom: 0;
+  right: 20%;
+}
+.room-background .present-outfit {
+  position: absolute;
+  width: 12%;
+  bottom: 230px;
+  right: 20.2%;
+}
+.room-background .closet {
+  width: 50%;
+}
+.room-background .closet .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.room-background .closet .row img {
+  width: 75%;
+}/*# sourceMappingURL=room.css.map */
